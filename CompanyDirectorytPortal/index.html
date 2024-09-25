@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header>
+    <h1>Company Directory Portal</h1>
+
+    </header>
+    <main>
+    <form action="" id="registration-form">
+<h3>Employee Registration Form</h3>
+<label for="fullname">Full Name:</label> <br>
+
+<input name="name" id="fullname" placeholder="Enter Your Name" required><br><br>
+<label for="email">Email:</label><br>
+<input name="email" id="email" placeholder="Enter Your Email" required><br><br>
+<label for="department">Department</label><br>
+<select id="department">
+<option>IT</option>
+<option>HR</option>
+<option>Finance</option>
+<option>Marketing</option>
+</select>
+<br> <br>
+<label for="EmployeeID">Employee ID</label><br>
+<input name="EmployeeID" placeholder="Enter Your Employee ID" id="EmployeeID"> <br><br>
+<label for="profile">Profile Picture URL:</label><br>
+<input id="profile"> <br><br>
+<button type="button" class="button">Register Employee</button>
+ </form>
+ <section class="employee-list">
+<h3>Employee List</h3>
+<ul>
+<li>1. Alice Johnson - alice.johnson@example.com </li><br>
+<li>2.Michael Smith - michael.smith@example.com</li><br>
+<li>3.Emma Davis - emma.davis@example.com</li><br>
+<li>4.James Brown - james.brown@example.com</li><br>
+<li>5.Sophia Wilson - sophia.wilson@example.com</li><br>
+<li>6.Liam Garcia - liam.garcia@example.com</li><br>
+<li>7.Olivia Martinez - olivia.martinez@example.com</li><br>
+<li>8.Noah Rodriguez - noah.rodriguez@example.com</li><br>
+<li>9.Isabella Lee - isabella.lee@example.com</li><br>
+<li>10.Lucas Perez - lucas.perez@example.com</li><br>
+</ul>
+</section>
+<section class="employee-details">
+<h3>Employee Details</h3>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>EmployeeID</th>
+        <th>Department</th>
+
+        <th>Profile Picture</th>
+        
+    </tr>
+    <tr>
+    <td>Alice Johnson</td>
+    <td>12345</td>
+    <td>IT</td>
+    <td><div id="profile-pic-container"></div>
+        <img id="profile-pic" src="default-profile.png" alt="Profile Picture">
+    </div></td>
+    <tr>
+<td>Michael Smith</td>        
+<td>98765</td>
+<td>HR</td>
+    <td><div id="profile-pic-container"></div>
+        <img id="profile-pic" src="default-profile.png" alt="Profile Picture">
+    </div></td>
+</tr>
+<tr>
+    <td>Emma Davis</td>
+    <td>98456</td>
+    <td>IT</td>
+    <td>
+        <div id="profile-pic-container">
+        <img id="profile-pic" src="default-profile.png" alt="Profile Picture">
+    </div></td>
+</tr>
+
+<tr>
+    <td>James Brown</td>
+    <td>91111</td>
+    <td>IT</td>
+    <td>
+        <div id="profile-pic-container">
+        <img id="profile-pic" src="default-profile.png" alt="Profile Picture">
+    </div></td>
+</tr>
+
+<tr>
+   <td>Sophia Wilson</td>  
+    <td>92211</td>
+    <td>HR</td>
+    <td><div id="profile-pic-container">
+        <img id="profile-pic" src="default-profile.png" alt="Profile Picture">
+    </div></td>
+</tr>   
+<tr>
+     
+    <td>Liam Garcia</td>
+    <td>95555</td>
+    <td>Marketing</td>
+    <td><div id="profile-pic-container"></div>
+        <img id="profile-pic" src="default-profile.png" alt="Profile Picture">
+    </div></td>
+
+</tr>
+<tr>
+   <td>Olivia Martinez</td>  
+    <td>99899</td>
+    <td>IT</td>
+    <td><div id="profile-pic-container"></div>
+        <img id="profile-pic" src="default-profile.png" alt="Profile Picture">
+    </div></td>
+
+</tr>
+ <tr>
+    <td>Noah Rodriguez</td> 
+    <td>99999</td>
+    <td>Finance</td>
+    <td><div id="profile-pic-container"></div>
+        <img id="profile-pic" src="default-profile.png" alt="Profile Picture">
+    </div></td>
+
+</tr>
+<tr>
+     <td>Isabella Lee</td>
+    <td>98888</td>
+    <td>HR</td>
+    <td><div id="profile-pic-container"></div>
+        <img id="profile-pic" src="default-profile.png" alt="Profile Picture">
+    </div></td>
+
+</tr>
+<tr>
+     
+    <td>Lucas Perez</td>
+    <td>99899</td>
+    <td>IT</td>
+    <td><div id="profile-pic-container"></div>
+        <img id="profile-pic" src="default-profile.png" alt="Profile Picture">
+    </div></td>
+
+</tr> 
+</tr>
+</table>
+</section>
+
+
+
+<section class="map">
+    <h2>Our Location</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345091535!2d144.95373531568282!3d-37.81627997975152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f8b2b81%3A0x2f999f2fbbd81f5e!2sMelbourne%20CBD%2C%20Victoria%2C%20Australia!5e0!3m2!1sen!2sus!4v1631596495089!5m2!1sen!2sus" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Company Directory Portal</p>
+</footer>
+
+
+</body>
+</html>
